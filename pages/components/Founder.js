@@ -13,7 +13,7 @@ const Founder = ({ founder }) => {
           className="rounded-full w-12 h-12"
         />
         <p>Name: {founder.fields["Cofounder Name"]}</p>
-        <p>I'm a {founder.fields["I'm a ... [Background]"]} person</p>
+        <p>I&#39;m a {founder.fields["I'm a ... [Background]"]} person</p>
         <p>looking for a {founder.fields["Looking for ..."]} person</p>
       </div>
     </>

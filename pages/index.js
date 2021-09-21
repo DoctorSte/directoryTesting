@@ -3,6 +3,7 @@ import "tailwindcss/tailwind.css";
 import Airtable from "airtable";
 import { useEffect, useState } from "react";
 import Founder from "./components/Founder";
+import Link from "next/link";
 
 const base = new Airtable({ apiKey: "keynbSweRZKkwmlQX" }).base(
   "appvWRAi4zf0BYTR3"
@@ -36,12 +37,9 @@ export default function Home() {
           ))}
         </div>
 
-        <a
-          className="p-4 rounded-md bg-indigo-500 hover:bg-indigo-800 w-40 flex justify-center"
-          href="/newCofounder"
-        >
-          Add your info
-        </a>
+        <button className="p-4 rounded-md bg-indigo-500 hover:bg-indigo-800 w-40 flex justify-center">
+          <Link href="/newCofounder">Add your info</Link>
+        </button>
       </div>
     </>
   );

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import "tailwindcss/tailwind.css";
+import Link from "next/link";
 
 function newCofounder() {
   return (
@@ -7,12 +8,14 @@ function newCofounder() {
       <Head>
         <title>Submit new Cofounder</title>
       </Head>
-      <div class="flex flex-col justify-center items-center ">
-        <a href="/">Back</a>
+      <div className="flex flex-col justify-center items-center ">
+        <button>
+          <Link href="/">Back</Link>
+        </button>
         <iframe
           className="airtable-embed"
           src="https://airtable.com/embed/shrLb79cCszcBQvsa?backgroundColor=purple"
-          frameborder="0"
+          frameBorder="0"
           width="100%"
           height="1700"
         ></iframe>
