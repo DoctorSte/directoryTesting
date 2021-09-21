@@ -2,7 +2,7 @@ import Head from "next/head";
 import "tailwindcss/tailwind.css";
 import Link from "next/link";
 
-function newCofounder() {
+export default function newCofounder() {
   return (
     <>
       <Head>
@@ -23,5 +23,3 @@ function newCofounder() {
     </>
   );
 }
-
-export default newCofounder;
