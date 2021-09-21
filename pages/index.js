@@ -40,7 +40,7 @@ export default function Home() {
           className="p-4 rounded-md bg-indigo-500 hover:bg-indigo-800 w-40 flex justify-center"
           href="/newCofounder"
         >
-          New
+          Add your info
         </a>
       </div>
     </>

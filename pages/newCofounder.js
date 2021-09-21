@@ -13,7 +13,6 @@ function newCofounder() {
           className="airtable-embed"
           src="https://airtable.com/embed/shrLb79cCszcBQvsa?backgroundColor=purple"
           frameborder="0"
-          onmousewheel=""
           width="100%"
           height="1700"
         ></iframe>
