@@ -53,7 +53,7 @@ export default function Home() {
               <ChevronRightIcon className="h-5 w-5" />
             </span>
             <span className="flex items-center gap-4">
-              I'm a:
+              I&apos;m a:
               <Select
                 isMulti
                 className="min-w-max w-40"
